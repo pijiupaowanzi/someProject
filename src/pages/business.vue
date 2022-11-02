@@ -45,15 +45,15 @@
 		</p>
 		<ul class="flex list-none" data-aos="flip-left">
 			<li class="flex text-20px color-#999 mr-60px">
-				<div class="bg-#2B95F1 p-10px" ></div>
+				<div class="bg-#2B95F1 p-10px"></div>
 				<span>&ensp;·业务运营&ensp;·系统维护&ensp;·系统建设</span>
 			</li>
 			<li class="flex text-20px color-#999 mr-60px">
-				<div class="bg-#7AF172 p-10px" ></div>
+				<div class="bg-#7AF172 p-10px"></div>
 				<span>&ensp;·业务运营&ensp;·系统维护</span>
 			</li>
 			<li class="flex text-20px color-#999">
-				<div class="bg-#FF989D p-10px" ></div>
+				<div class="bg-#FF989D p-10px"></div>
 				<span>&ensp;·业务运营</span>
 			</li>
 		</ul>

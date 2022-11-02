@@ -6,6 +6,9 @@ import { ArcoResolver } from 'unplugin-vue-components/resolvers'
 import { fileURLToPath } from 'node:url'
 // https://vitejs.dev/config/
 export default defineConfig({
+	server: {
+		host: '0.0.0.0'
+	},
 	plugins: [
 		vue(),
 		unocss(),
@@ -39,7 +42,6 @@ export default defineConfig({
 				assetFileNames: 'static/[ext]/[name]-[hash].[ext]'
 			}
 		},
-		minify: 'terser',
 		terserOptions: {
 			// 清除console和debugger
 			compress: {
