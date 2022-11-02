@@ -1,0 +1,14 @@
+{
+	"recommendations": [
+		"Vue.volar",
+		"antfu.unocss",
+		"christian-kohler.path-intellisense",
+		"dbaeumer.vscode-eslint",
+		"eamodio.gitlens",
+		"editorconfig.editorconfig",
+		"esbenp.prettier-vscode",
+		"kisstkondoros.vscode-gutter-preview",
+		"naumovs.color-highlight",
+		"steoates.autoimport"
+	]
+}
