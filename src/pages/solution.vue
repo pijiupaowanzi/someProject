@@ -22,14 +22,14 @@
 			data-aos="fade-left"
 			src="@/assets/imgs/solution/solution-sec2-r.png"
 			class="absolute right-0 top-180px w-1100px h-690px"
-		>
+		/>
 	</div>
 
 	<div class="h-35vh">
 		<p class="text-50px lh-35vh text-center color-#fff">大数据能力平台解决方案</p>
 	</div>
 	<div class="h-70vh p-x-5% box-border pt-55px flex justify-center">
-		<img src="@/assets/imgs/solution/solution-sec3-b.png" class="w-1100px h-530px" >
+		<img src="@/assets/imgs/solution/solution-sec3-b.png" class="w-1100px h-530px" />
 	</div>
 
 	<div class="h-[calc(100vh+40px)] box-border pt-100px bg-#F6F6F6 color-#333">
@@ -45,13 +45,13 @@
 			<swiper-slide v-for="(item, index) in swiperData" :key="index">
 				<div class="relative bg-#fff pl-5% h-540px box-border w-1414px">
 					<div class="relative h-120px">
-						<img src="@/assets/imgs/solution/yinhao.png" class="absolute w-80px" >
+						<img src="@/assets/imgs/solution/yinhao.png" class="absolute w-80px" />
 					</div>
 					<p class="text-24px mb-35px font-bold">{{ item.title }}</p>
 					<ul class="list-none">
 						<li class="mb-30px text-20px" v-for="(itm, idx) in item.desc" :key="idx">{{ itm }}</li>
 					</ul>
-					<img :src="item.img" class="w-1070px h-540px absolute right--215px bottom--65px" >
+					<img :src="item.img" class="w-1070px h-540px absolute right--215px bottom--65px" />
 				</div>
 			</swiper-slide>
 		</swiper>

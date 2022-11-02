@@ -1,17 +1,17 @@
 <template>
 	<div class="sec1 h-100vh flex items-center justify-center">
 		<div class="flex flex-col justify-center items-center gap-40px">
-			<img src="@/assets/imgs/join/joinMD-sec1.dream.png" class="w-715px h-112px" >
+			<img src="@/assets/imgs/join/joinMD-sec1.dream.png" class="w-715px h-112px" />
 			<!-- <a-input-search placeholder="搜索工作岗位" class="w-400px h-48px bg-[rgba(0,0,0,0)] b-color-#333"/> -->
 		</div>
 		<img
 			src="@/assets/imgs/join/half-circle.png"
 			class="absolute bottom-0 right-0 w-615px h-366px"
-		>
+		/>
 		<img
 			src="@/assets/imgs/join/circle.png"
 			class="w-57px h-57px absolute right-61px bottom-445px"
-		>
+		/>
 	</div>
 
 	<div class="box-border px-10% py-100px">

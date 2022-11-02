@@ -1,6 +1,6 @@
 <template>
 	<div class="sec1 h-100vh flex justify-center items-center">
-		<img src="@/assets/imgs/home/ball.png" class="h-500px w-500px" >
+		<img src="@/assets/imgs/home/ball.png" class="h-500px w-500px" />
 		<div class="text-80px color-#fff absolute font-thin" data-aos="zoom-out">执着追求 完美品质</div>
 	</div>
 
@@ -40,13 +40,13 @@
 		</div>
 		<ul class="list-none flex justify-between color-#fff">
 			<li v-for="(item, index) in insightRef" class="h-400px w-350px relative" :key="index">
-				<img :src="item.image" class="w-285px h-245px ml-30px" >
+				<img :src="item.image" class="w-285px h-245px ml-30px" />
 				<img
 					:src="item.icon"
 					:data-aos-delay="item.delay"
 					data-aos="zoom-in"
 					class="w-80px h-90px absolute op-80 top-50px left-40%"
-				>
+				/>
 				<p class="text-24px mb-30px text-center" :data-aos-delay="item.delay" data-aos="fade-left">
 					{{ item.name }}
 				</p>
@@ -60,7 +60,7 @@
 	<div class="sec4 h-100vh p-x-5% pt-65px">
 		<p class="text-50px color-#707070 lh-20" data-aos="flip-right">
 			深耕业务
-			<br >
+			<br />
 			引领行业服务标准建设
 		</p>
 		<p class="text-24px color-#333 mt-15px" data-aos="flip-left">
@@ -75,7 +75,7 @@
 			>
 				<span class="text-60px color-#999">{{ item.num }}</span>
 				<span class="text-20px color-#707070">{{ item.describe }}</span>
-				<img :src="item.img" class="h-84px w-84px" >
+				<img :src="item.img" class="h-84px w-84px" />
 			</li>
 		</ul>
 	</div>
@@ -90,7 +90,7 @@
 				data-aos="zoom-in"
 				:data-aos-delay="item.delay"
 				:key="index"
-			>
+			/>
 		</div>
 	</div>
 </template>

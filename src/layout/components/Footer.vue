@@ -2,7 +2,7 @@
 	<div class="pt-65px p-x-5% m-auto">
 		<ul class="color-#fff">
 			<li class="mb-40px">
-				<img src="@/assets/imgs/home/Logo.png" class="h-44px h-164px" >
+				<img src="@/assets/imgs/home/Logo.png" class="h-44px h-164px" />
 			</li>
 			<li class="border-b-1px pb-40px">
 				<ul class="flex justify-between">
@@ -24,15 +24,15 @@
 					<li class="flex-1 flex justify-center">
 						<ul class="text-18px">
 							<li>
-								<img src="@/assets/imgs/footer/location.png" >
+								<img src="@/assets/imgs/footer/location.png" />
 								上海市黄浦区绿地海外滩金融A座505
 							</li>
 							<li>
-								<img src="@/assets/imgs/footer/phone.png" >
+								<img src="@/assets/imgs/footer/phone.png" />
 								86-21-63130028
 							</li>
 							<li>
-								<img src="@/assets/imgs/footer/email.png" >
+								<img src="@/assets/imgs/footer/email.png" />
 								<div>
 									<p>联系我们:bd@harvestmoney.cn</p>
 									<p>加入我们:hr@harvestmoney.cn</p>

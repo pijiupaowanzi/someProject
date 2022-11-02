@@ -21,17 +21,17 @@
 				src="@/assets/imgs/clientcase/clientcase-sec2.png"
 				class="w-1530px h-440px"
 				data-aos="slide-left"
-			>
+			/>
 		</div>
 		<ul class="loop1 list-none mt-80px flex gap-30px of-hidden text-left absolute">
 			<li v-for="(item, index) in rollData" :key="index">
-				<img :src="item.img" class="h-210px w-330px mb-20px" >
+				<img :src="item.img" class="h-210px w-330px mb-20px" />
 				<p>{{ item.title }}</p>
 			</li>
 		</ul>
 		<ul class="loop2 list-none mt-80px flex gap-30px of-hidden text-left absolute">
 			<li v-for="(item, index) in rollData" :key="index">
-				<img :src="item.img" class="h-210px w-330px mb-20px" >
+				<img :src="item.img" class="h-210px w-330px mb-20px" />
 				<p>{{ item.title }}</p>
 			</li>
 		</ul>
@@ -39,7 +39,7 @@
 
 	<div class="h-[calc(100vh+40px)] box-border p-100px">
 		<p class="color-#333 text-50px mb-80px">我们的荣誉</p>
-		<img src="@/assets/imgs/clientcase/honours.png" class="w-1350px h-590px block m-auto" >
+		<img src="@/assets/imgs/clientcase/honours.png" class="w-1350px h-590px block m-auto" />
 	</div>
 </template>
 

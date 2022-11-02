@@ -1,7 +1,7 @@
 <template>
 	<div class="flex justify-between w-80% m-auto h-80px items-center">
-		<img v-if="!showOtherType" src="@/assets/imgs/home/Logo.png" class="h-44px h-164px" >
-		<img v-else src="@/assets/imgs/join/logo-deep.png" class="h-44px h-164px" >
+		<img v-if="!showOtherType" src="@/assets/imgs/home/Logo.png" class="h-44px h-164px" />
+		<img v-else src="@/assets/imgs/join/logo-deep.png" class="h-44px h-164px" />
 		<ul
 			class="flex w-500px justify-between list-none text-20px h-100% color-#fff"
 			:class="{ otherType: showOtherType }"
