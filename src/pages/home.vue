@@ -4,7 +4,7 @@
 		<div class="text-80px color-#fff absolute font-thin" data-aos="zoom-out">执着追求 完美品质</div>
 	</div>
 
-	<div class="sec2 h-100vh relative pt-130px">
+	<div class="sec2 h-100vh relative pt-130px of-x-hidden">
 		<div
 			class="h-680px w-70% bg-#fff p-x-130px pt-90px"
 			data-aos="fade-right"
@@ -28,7 +28,7 @@
 		</div>
 	</div>
 
-	<div class="sec3 h-100vh flex flex-col justify-evenly p-x-5%">
+	<div class="sec3 h-100vh flex flex-col justify-evenly p-x-5% of-x-hidden">
 		<div class="color-#fff">
 			<p class="text-50px mb-45px" data-aos="fade-down">洞察行业 为客户提供价值服务</p>
 			<p class="mb-25px text-24px" data-aos="fade-right">
@@ -57,13 +57,13 @@
 		</ul>
 	</div>
 
-	<div class="sec4 h-100vh p-x-5% pt-65px">
+	<div class="sec4 h-100vh p-x-5% pt-65px of-x-hidden">
 		<p class="text-50px color-#707070 lh-20" data-aos="flip-right">
 			深耕业务
 			<br />
 			引领行业服务标准建设
 		</p>
-		<p class="text-24px color-#333 mt-15px" data-aos="flip-left">
+		<p class="text-24px color-#333" data-aos="flip-left">
 			致力于产业信息化、自动化、智能化。已成功为电信、平安等多家大中型企业提供了端到端的信息技术服务。
 		</p>
 		<ul class="list-none mt-50px">

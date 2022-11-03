@@ -6,7 +6,7 @@
 		</div>
 	</div>
 
-	<div class="h-[calc(100vh+40px)] box-border pt-100px px-5% relative">
+	<div class="h-[calc(100vh+40px)] box-border pt-100px px-5% relative of-x-hidden">
 		<p class="text-50px color-#333 mb-40px" data-aos="fade-up">测试技术和服务解决方案</p>
 		<div
 			v-for="(item, index) in solution"

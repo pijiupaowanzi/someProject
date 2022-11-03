@@ -60,39 +60,41 @@
 		<img src="@/assets/imgs/business/ceshizhixing.png" class="block m-x-auto mt-60px" />
 	</div>
 
-	<div class="h-43vh color-#fff p-x-5% pt-150px">
-		<p class="text-50px mb-45px" data-aos="fade-left">仿真测试特点 — 自动化回归</p>
-		<p class="text-24px lh-10" data-aos="fade-right">
-			仿真测试通过自主研发了自动化测试平台，通过先进的自动化测试工具，代替人力，高效实现大量回归测试场景
-			<br />
-			及生产环境的晨检，保障业务应用的快速迭代。
-		</p>
-	</div>
-	<div class="h-49vh relative bg-#f6f6f6">
-		<ul
-			data-aos="slide-left"
-			class="list-none bg-#fff b-rd-8px flex justify-center box-border h-450px p-x-30px p-y-90px absolute right-0 top--126px"
-		>
-			<li
-				v-for="(item, index) in simulation"
-				class="b-r-1 b-#707070 box-border p-x-60px"
-				:key="index"
+	<div class="relative of-x-hidden">
+		<div class="h-43vh color-#fff p-x-5% pt-150px">
+			<p class="text-50px mb-45px" data-aos="fade-left">仿真测试特点 — 自动化回归</p>
+			<p class="text-24px lh-10" data-aos="fade-right">
+				仿真测试通过自主研发了自动化测试平台，通过先进的自动化测试工具，代替人力，高效实现大量回归测试场景
+				<br />
+				及生产环境的晨检，保障业务应用的快速迭代。
+			</p>
+		</div>
+		<div class="h-49vh bg-#f6f6f6">
+			<ul
+				data-aos="slide-left"
+				class="list-none bg-#fff b-rd-8px flex justify-center box-border h-450px p-x-30px p-y-90px absolute right-0 bottom-126px"
 			>
-				<img
-					:src="item.img"
-					class="w-60px h-60px mb-40px"
-					data-aos="fade-down-left"
-					:data-aos-delay="item.delay"
-				/>
-				<div
-					class="w-305px text-20px color-#333 lh-8"
-					data-aos="fade-up-right"
-					:data-aos-delay="item.delay"
+				<li
+					v-for="(item, index) in simulation"
+					class="b-r-1 b-#707070 box-border p-x-60px"
+					:key="index"
 				>
-					{{ item.desc }}
-				</div>
-			</li>
-		</ul>
+					<img
+						:src="item.img"
+						class="w-60px h-60px mb-40px"
+						data-aos="fade-down-left"
+						:data-aos-delay="item.delay"
+					/>
+					<div
+						class="w-305px text-20px color-#333 lh-8"
+						data-aos="fade-up-right"
+						:data-aos-delay="item.delay"
+					>
+						{{ item.desc }}
+					</div>
+				</li>
+			</ul>
+		</div>
 	</div>
 
 	<div
@@ -151,7 +153,7 @@
 		</div>
 	</div>
 
-	<div class="h-35vh" id="tjs">
+	<div class="h-35vh of-x-hidden" id="tjs">
 		<p class="text-50px lh-35vh text-center color-#fff" data-aos="flip-down">
 			图数据应用能力开放平台 — 实现功能
 		</p>
