@@ -1,7 +1,7 @@
 <template>
 	<div class="sec1 h-100vh flex items-center justify-center">
 		<div class="flex flex-col justify-center items-center gap-40px">
-			<img src="@/assets/imgs/join/joinMD-sec1.dream.png" class="w-715px h-112px" />
+			<img src="@/assets/imgs/join/joinMD-sec1.dream.png" class="w-715px h-112px scale-150" />
 			<!-- <a-input-search placeholder="搜索工作岗位" class="w-400px h-48px bg-[rgba(0,0,0,0)] b-color-#333"/> -->
 		</div>
 		<img

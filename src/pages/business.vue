@@ -230,7 +230,7 @@ const sec1Data = [
 	{
 		title: 'Cross Domain Fusion Wide Table',
 		secTitle: '跨域融合宽表',
-		desc: '通过将跨域数据进行融合，形成超宽融合宽表，统一数据维度，整合业务口径，提高系统数据的可管理性和应用开发的便捷性。',
+		desc: '通过将跨域数据进行融合，形成超宽融合宽表、统一数据维度、整合业务口径、提高系统数据的可管理性和应用开发的便捷性。',
 		img: new URL('../assets/imgs/business/swiper2.png', import.meta.url).href,
 		anchor: '#kyrhb'
 	},
@@ -244,7 +244,7 @@ const sec1Data = [
 	{
 		title: 'Private Domain Traffic',
 		secTitle: '私域流量',
-		desc: '通过互联网海量数据，结合人工智能和大数据技术，通过统一平台为用户提供客户画像、精准营销，垂直化内容运营等一系列定制服务。',
+		desc: '通过互联网海量数据，结合人工智能和大数据技术，通过统一平台为用户提供客户画像、精准营销、垂直化内容运营等一系列定制服务。',
 		img: new URL('../assets/imgs/business/swiper4.png', import.meta.url).href,
 		anchor: '#'
 	}
@@ -256,17 +256,17 @@ const onSlideChange = (swiper: any) => {
 
 const simulation = [
 	{
-		desc: '仿真测试设计从业务需求出发，直接通过对业务需求的分析完成测试案例设计，对业务负责，保障业务需求完整性；',
+		desc: '仿真测试设计从业务需求出发，直接通过对业务需求的分析完成测试案例设计，对业务负责，保障业务需求完整性。',
 		img: new URL('../assets/imgs/business/yuanpan.png', import.meta.url).href,
 		delay: 100
 	},
 	{
-		desc: '自动化测试平台支持WEB、APP、IVR等多种类型的技术框架，满足从业务受理、开通、计费、开账、客服的端到端全流程自动化测试，全面保证业务系统稳定性；',
+		desc: '自动化测试平台支持WEB、APP、IVR等多种类型的技术框架，满足从业务受理、开通、计费、开账、客服的端到端全流程自动化测试，全面保证业务系统稳定性。',
 		img: new URL('../assets/imgs/business/sanjiao.png', import.meta.url).href,
 		delay: 200
 	},
 	{
-		desc: '支持WEB、APP、IVR等多种类型的业务系统；',
+		desc: '支持WEB、APP、IVR等多种类型的业务系统。',
 		img: new URL('../assets/imgs/business/lianjie.png', import.meta.url).href,
 		delay: 300
 	},

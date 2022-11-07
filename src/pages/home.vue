@@ -13,9 +13,7 @@
 			<p class="text-70px pb-70px">盟鼎网络科技</p>
 			<ul class="list-none text-20px lh-10">
 				<li>
-					&ensp;&ensp;&ensp;&ensp;上海盟鼎网络科技有限公司（简称“盟鼎”）是中国领先的信息技术智能化应用平台，创立于2005年,注册
-					资金1031万。业务领域涵盖互联网、通信、金融、汽车等。拥有自主研发的大数据技术、自动化测试平台和私
-					域流量平台。致力于产业信息化、自动化、智能化。已成功为电信、平安等多家大中型企业提供了端到端的信息技术服务。
+					&ensp;&ensp;&ensp;&ensp;上海盟鼎网络科技有限公司（简称&nbsp;“盟鼎”&nbsp;）是中国领先的信息技术智能化应用平台，创立于2005年，注册资金1031万。业务领域涵盖互联网、通信、金融、汽车等。拥有自主研发的大数据技术、自动化测试平台和私域流量平台。致力于产业信息化、自动化、智能化。已成功为电信、平安等多家大中型企业提供了端到端的信息技术服务。
 				</li>
 				<li>
 					&ensp;&ensp;&ensp;&ensp;盟鼎积极布局信息技术产业，全面构建智能化生态体系。通过测试业务精深业务理解，通过大数据技术精深数据理解，通过数据应用为客户提供价值服务。
@@ -111,7 +109,7 @@ const insightRef = ref<any>([
 		image: new URL('../assets/imgs/home/four-kyrhkb.png', import.meta.url).href,
 		name: '跨域融合宽表',
 		describe:
-			'通过将跨域数据进行融合，形成超宽融合宽表，统一数据维度，整合业务口径，提高系统数据的可管理性和应用开发的便捷性。',
+			'通过将跨域数据进行融合，形成超宽融合宽表、统一数据维度、整合业务口径、提高系统数据的可管理性和应用开发的便捷性。',
 		icon: new URL('../assets/imgs/home/kuanbiao.png', import.meta.url).href,
 		delay: 150
 	},
@@ -149,7 +147,7 @@ const business = ref<any>([
 	},
 	{
 		num: '03',
-		describe: '近百人技术团队，获奖的产品及解决方案',
+		describe: '拥有近百人技术团队，产品及解决方案屡获大奖',
 		img: new URL('../assets/imgs/home/tuandui.png', import.meta.url).href,
 		slide: 'right'
 	}
