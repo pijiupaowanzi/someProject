@@ -125,7 +125,7 @@ const insightRef = ref<any>([
 		image: new URL('../assets/imgs/home/four-syll.png', import.meta.url).href,
 		name: '私域流量',
 		describe:
-			'通过互联网海量数据，结合人工智能和大数据技术，通过统一平台为用户提供客户画像、精准营销，垂直化内容运营等一系列定制服务。',
+			'通过互联网海量数据，结合人工智能和大数据技术，通过统一平台为用户提供客户画像、精准营销、垂直化内容运营等一系列定制服务。',
 		icon: new URL('../assets/imgs/home/liuliang.png', import.meta.url).href,
 		delay: 450
 	}
